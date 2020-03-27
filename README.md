@@ -107,13 +107,15 @@ JSON Object data and your secret key to JSON String with alphabetic order. Then 
 ```
 
 
-
-
 ## Utils
 
 1. qrcode (https://github.com/lincolnloop/python-qrcode)
 2. pyotp (https://github.com/pyauth/pyotp)
 
+
+## License
+
+[Apache2.0](LICENSE)
 
 
 ## Other
