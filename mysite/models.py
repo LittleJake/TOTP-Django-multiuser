@@ -1,9 +1,12 @@
 from django.db import models
+import time
 
 # Create your models here.
 
 class totp_user(models.Model):
-    appkey = models.CharField(max_length=32, db_index=True)
+    secret = models.CharField(max_length=64)
     token = models.CharField(max_length=16)
-    user_id = models.IntegerField(default=0)
+    ip = models.CharField(max_length=150, unique=True)
+    update_time = models.IntegerField(default=0)
+
 

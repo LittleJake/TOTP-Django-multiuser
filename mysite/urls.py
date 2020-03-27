@@ -19,4 +19,6 @@ from . import views
 urlpatterns = [
     path('check/', views.check_code),
     path('create/', views.create_user),
+    path('check', views.check_code),
+    path('create', views.create_user),
 ]
